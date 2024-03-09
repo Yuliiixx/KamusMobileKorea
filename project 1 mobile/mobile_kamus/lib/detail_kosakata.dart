@@ -23,16 +23,16 @@ class PageDetailKosakata extends StatelessWidget {
         children: [
           Text(
             data?.indonesia ?? "",
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
           ),
           Text(
             data?.korea ?? "",
-            style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             // textAlign: TextAlign.left,
           ),
           Text(
             data?.hangeul ?? "",
-            style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
             // textAlign: TextAlign.left,
           ),
         ],

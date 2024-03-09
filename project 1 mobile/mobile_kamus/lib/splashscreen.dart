@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:mobile_kamus/home.dart';
 import 'package:mobile_kamus/page_listdata.dart';
 
 import 'dart:async';
@@ -17,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Timer(
       Duration(
-          seconds: 2), // Ganti sesuai kebutuhan dengan durasi splash screen
+          seconds: 5), // Ganti sesuai kebutuhan dengan durasi splash screen
       () => Navigator.pushReplacementNamed(context, '/home'),
     );
   }
